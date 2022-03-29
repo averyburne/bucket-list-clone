@@ -1,0 +1,84 @@
+@import '~bootstrap/scss/bootstrap';
+
+[data-theme="dark"] {
+  background-color: #111 !important;
+  color: #eee;
+  h4 {
+    color: #EAFF00;
+  }
+  .items {
+    border: 2px solid yellow;
+    padding: 8px;
+    border-radius: 10%;
+    margin: 6px 0px;
+  }
+  .btn-outline-warning {
+    border: 3px solid;
+    margin: 5px;
+    color: orange;
+  }
+}
+
+[data-theme="light"] {
+  .btn-outline-warning {
+    border: 3px solid;
+    margin: 5px;
+    color: black;
+  }
+
+  h4 {
+    color: #black;
+  }
+
+  .items {
+    border: 2px solid black;
+    padding: 8px;
+    border-radius: 10%;
+    margin: 6px 0px;
+  }
+
+  .btn-outline-warning:hover {
+    color: black;
+  }
+}
+
+.btn-outline-danger {
+  border: 3px solid;
+  margin: 5px;
+}
+
+.btn-outline-primary {
+  border: 3px solid;
+  margin: 5px;
+}
+
+#map {
+  width: 100%;
+  height: 400px;
+  background-color: grey;
+}
+
+#message {
+  height: 20px;
+}
+
+.btn-outline-warning {
+  border: 3px solid;
+  margin: 5px;
+  color: black;
+}
+
+h4 {
+  color: #black;
+}
+
+.items {
+  border: 2px solid black;
+  padding: 8px;
+  border-radius: 10%;
+  margin: 6px 0px;
+}
+
+.btn-outline-warning:hover {
+  color: black;
+}
